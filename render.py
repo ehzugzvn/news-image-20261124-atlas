@@ -104,7 +104,7 @@ for i, (t, lab) in enumerate(tl):
 # ---- DAY IN NUMBERS ----
 d.text((MX, 190), "THE DAY IN NUMBERS", font=FB(14), fill=NAVY)
 nums = [("4", "tankers hit"), ("25", "hostages"), ("11", "wounded Riyadh"),
-        ("10/12", "Huawei counts"), ("272", "Gaza cases"), ("700,000+", "Russian war dead")]
+        ("10/12", "Huawei counts"), ("272", "Gaza cases"), ("700,000+", "dead or missing")]
 bw = (CW - 5 * 8) // 6
 for i, (n, lab) in enumerate(nums):
     x = MX + i * (bw + 8)
